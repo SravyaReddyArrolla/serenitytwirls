@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+body {
+    background-color: black;
+    color: white; /* Optional: changes text color to white for better contrast */
+}
+
+header {
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.art-item {
+    text-align: center;
+}
+
+.art-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.art-item img:hover {
+    transform: scale(1.05);
+}
+
+.art-item p {
+    margin: 10px 0 0;
+    font-size: 1em;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
